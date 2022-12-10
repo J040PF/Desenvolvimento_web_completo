@@ -15,16 +15,15 @@ h1{
     padding: 18px;
     font-size: 4em;
     color: white;
-    
-
 }
+
 .color{
     color: #DC3535;
 }
 
 
 .menu{
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 10px;
 }
 
@@ -33,59 +32,95 @@ a{
     text-decoration: none;
 }
 
-a:link{
-    background-color: cadetblue;
-}
-a:visited{
+
+#header a:visited , #header a:link{
     background-color: black;
     color: white;
 }
-a:hover{
+#header a:hover{
     background-color: white;
     color: black;
+    border-radius: 5px;
 
 }
 
 
 
 
-/* --------------- layout do conteudo ---------------*/
+/* --------------- conteudo ---------------*/
 
 #conteudo{
-    background-color: white;
+    padding: 20px;
     color:black;
     width: 920px;
     margin: 0px auto;
 }
 
-.text{
+.titulo_postagem{
     width: 660px;
     background-color: white;
     float: left;
-    text-align: center;
+
+}
+.titulo_postagem h3{
+    font-size: 2em;
+    padding: 0 10px;
+}
+
+.titulo_postagem span{
+    padding: 20px;
+
+}
+
+.text{
+    margin: 10px;
 }
 
 
 /* --------------- aba lateral ---------------*/
 .aba_lateral{
     width: 240px;
-    background-color: black;
+    background-color: white;
     color: white;
-    text-align: center;
+
     float: right;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .postagem{
-    padding: 10px;
-    background-color: white;
+
     color: black;
     border-bottom: 1px dotted #ccc;
+    font-size: 0.8em;
+    padding: 0px 10px;
+
 }
 
+h2{
+    margin: 10px;
+    background-color: black;
+}
+
+.aba_lateral a {
+    color: black;
+}
+.aba_lateral a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+/* --------------- Rodape ---------------*/
 #Rodape{
+    width: 100%;
     clear: both;
     background-color: black;
     text-align: center;
     
+}
+
+#Rodape h1{
+    font-size: 1em;
 }
