@@ -46,7 +46,6 @@ a{
 
 
 
-
 /* --------------- conteudo ---------------*/
 
 #conteudo{
@@ -54,6 +53,10 @@ a{
     color:black;
     width: 920px;
     margin: 0px auto;
+}
+.data{
+    padding: 20px 20px;
+    margin-bottom: 20px;
 }
 
 .titulo_postagem{
@@ -67,12 +70,8 @@ a{
     padding: 0 10px;
 }
 
-.titulo_postagem span{
-    padding: 20px;
-}
-
 .text{
-    margin: 10px;
+    margin: 25px 10px;
 }
 
 
@@ -83,7 +82,7 @@ a{
     color: white;
 
     float: right;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .postagem{
@@ -91,7 +90,8 @@ a{
     color: black;
     border-bottom: 1px dotted #ccc;
     font-size: 0.8em;
-    padding: 0px 10px;
+    padding: 10px
+
 
 }
 
@@ -107,6 +107,9 @@ h2{
     background-color: black;
     color: white;
     border-radius: 5px;
+}
+.links{
+    padding: 10px;
 }
 
 
