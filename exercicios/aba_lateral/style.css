@@ -1,0 +1,22 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+
+    background-image: url('fotos/menu.png');
+    line-height: 40px;
+    text-indent: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover{
+    background-position: right;
+    box-shadow: 1px 1px 1px black;
+}
